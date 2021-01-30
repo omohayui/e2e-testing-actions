@@ -1,0 +1,15 @@
+{
+  "name": "e2e-test-actions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/ava -c 1 -s ./otter_food_lottery_test.js"
+  },
+  "author": "omohayui",
+  "license": "ISC",
+  "dependencies": {
+    "actions-on-google-testing": "^0.4.0",
+    "chai": "^4.2.0"
+  }
+}
